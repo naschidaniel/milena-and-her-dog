@@ -9,7 +9,10 @@ A simple blog, created with the Static Site Generator [Pelican](https://getpelic
 To run the project locally, python version 3.6+ is required. Use the following commands and you are ready to go.
 
 ```
-pip install "pelican[markdown]"
+pip install pelican
+pip install markdown
+pip install invoke
+pip install livereload
 ```
 
 
@@ -18,7 +21,7 @@ pip install "pelican[markdown]"
 Pelican includes an integrated development server, after the local start the website is available at [http://localhost:8000/](http://localhost:8000/).
 
 ```
-pelican --listen
+invoke livereload
 ```
 
 ### Template and Design 
@@ -26,6 +29,7 @@ pelican --listen
 A website should never exist twice on the web. Feel free to edit the template in the folder `./themes/milena/` the way you like it. Pelican uses [JINA2](https://jinja.palletsprojects.com/) as default template language. For the styling and the UI interface [tailwindcss](https://tailwindcss.com/) is used.
 
 Any other theme can also be used for this website. For more information, please refer to the Pelican documentation.
+
 
 ### Compiles for production
 
