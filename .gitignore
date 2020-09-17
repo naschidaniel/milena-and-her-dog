@@ -1,0 +1,10 @@
+# Python
+__pycache__
+*.pyc 
+
+# Pelican
+## Build Folder
+output
+
+# Editor
+.vscode
