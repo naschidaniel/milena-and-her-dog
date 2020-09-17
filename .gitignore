@@ -5,3 +5,6 @@ __pycache__
 # Pelican
 ## Build Folder
 output
+
+# Editor
+.vscode
