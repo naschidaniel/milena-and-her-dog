@@ -1,6 +1,6 @@
 # milena-and-her-dog
 
-A simple blog, created with the Static Site Generator [Pelican](https://getpelican.com/). For the styling and the UI interface [tailwindcss](https://tailwindcss.com/) is used. In section [CHANGELOG](#CHANGELOG) the already implemented parts of the websites are listed.
+A simple blog, created with the Static Site Generator [Pelican](https://getpelican.com/). In section [CHANGELOG](#CHANGELOG) the already implemented parts of the websites are listed.
 
 
 
@@ -21,6 +21,11 @@ Pelican includes an integrated development server, after the local start the web
 pelican --listen
 ```
 
+### Template and Design 
+
+A website should never exist twice on the web. Feel free to edit the template in the folder `./themes/milena/` the way you like it. Pelican uses [JINA2](https://jinja.palletsprojects.com/) as default template language. For the styling and the UI interface [tailwindcss](https://tailwindcss.com/) is used.
+
+Any other theme can also be used for this website. For more information, please refer to the Pelican documentation.
 
 ### Compiles for production
 
