@@ -113,6 +113,12 @@ def publish(c):
             **CONFIG))
 
 
+@task
+def kill(c):
+    """Terminate all processes on port 8000"""
+    c.run("kill -9 $(lsof -i TCP:8000 | grep LISTEN | awk '{print $2}')")
+
+
 def pelican_run(cmd):
     cmd += ' ' + program.core.remainder  # allows to pass-through args to pelican
     pelican_main(shlex.split(cmd))
