@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>milena-and-her-dog.com</title>
+
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-The content of the document......
+  <div class="min-w-full mx-auto lg:max-w-6xl">
+    <div
+      class="font-title truncate text-center h-18 md:h-44 mt-2 md:mt-4 align-middle px-3"
+    >
+      <a href="/"
+        class="text-3xl md:text-6xl ml-3 mr-3 truncate cursor-pointer hidden md:block"
+      >
+        <span class="text-gray-700">Milena</span>
+        <span class="text-red-600"> & </span>
+        <span class="text-gray-700">her dog</span>
+      </a>
+    </div>
+  </div>
+  
+  {% include './footer.html' %}
+  
 </body>
 
 </html>

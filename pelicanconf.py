@@ -30,9 +30,11 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Social links
+SOCIALLINKS = {'Instagram': '#instagram',
+               'Facebook': '#facebook',
+               'Pinterrest': '#pinterrest'
+              }
 
 DEFAULT_PAGINATION = 5
 
