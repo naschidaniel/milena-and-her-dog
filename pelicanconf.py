@@ -13,6 +13,9 @@ DEFAULT_LANG = 'de'
 
 # Template
 THEME = 'themes/milena'
+THEME_STATIC_DIR = 'theme'
+THEME_STATIC_PATHS = ['static']
+CSS_FILE = 'main.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
