@@ -1,26 +1,32 @@
 const path = require("path")
+const CompressionPlugin = require('compression-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "[name].js",
+    chunkFilename: "[name].js",
   },
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: [
-          "style-loader",
-          { loader: "css-loader", options: { importLoaders: 1 } },
-          "postcss-loader",
-        ],
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
+        exclude: /node_modules/,
       },
     ],
   },
-  // Optional for webpack-dev-server
-  devServer: {
-    watchContentBase: true,
-    contentBase: path.resolve(__dirname, "dist"),
-    open: true,
-  },
+  plugins: [
+    new CompressionPlugin(),
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+    }),
+    new HtmlWebPackPlugin({
+      template: "./src/index.html",
+      filename: "./index.html"
+    }),
+  ],
 }
