@@ -29,5 +29,13 @@
 
 
 {% block content %}
-{{page.content}}
+
+<div class="antialiased flex flex-col min-h-screen">
+  <main class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
+    <div>
+      <div class="content font-content text-gray-700">{{ page.content }}</div>
+    </div>
+  </main>
+</div>
+
 {% endblock content %}
