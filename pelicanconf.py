@@ -38,5 +38,15 @@ SOCIALLINKS = {'Instagram': '#instagram',
 
 DEFAULT_PAGINATION = 5
 
+# Date Formats
+DATE_FORMATS = {
+    'de': '%d.%m.%Y',
+    }
+
+STATIC_PATHS = [
+    'static/robots.txt',
+    ]
+
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
