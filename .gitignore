@@ -11,3 +11,4 @@ output
 
 # Webpack
 node_modules
+dist
