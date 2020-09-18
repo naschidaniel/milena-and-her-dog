@@ -1,0 +1,24 @@
+{
+  "name": "milena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:serve": "webpack-dev-server --mode=development --config webpack.config.js",
+    "dev:build": "webpack --mode=development --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "postcss": "^8.0.5",
+    "postcss-loader": "^4.0.2",
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^1.8.10",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

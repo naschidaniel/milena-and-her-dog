@@ -8,3 +8,6 @@ output
 
 # Editor
 .vscode
+
+# Webpack
+node_modules
