@@ -5,8 +5,6 @@ AUTHOR = 'Daniel Naschberger'
 SITENAME = 'milena-and-her-dog.com'
 SITEURL = ''
 
-PATH = 'content'
-
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'de'
@@ -58,8 +56,12 @@ STATIC_PATHS = [
     ]
 
 # URL Settings
+PATH = 'content'
+ARTICLE_PATHS = ['blog']
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}/index.html'
+
+PAGE_PATHS = ['pages']
 PAGE_URL = '/{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
 
