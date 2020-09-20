@@ -15,7 +15,7 @@
   <link href="{{ SITEURL }}" rel="canonical" />
 
   <!-- Styling -->
-  <link href="/theme/css/main.css" type="text/css" rel="stylesheet" />
+  <link href="/theme/css/main.css?v={{ LASTCOMMIT }}" type="text/css" rel="stylesheet" />
   {% endblock head %}
 
 </head>
@@ -29,7 +29,7 @@
 
   {% include './footer.html' %}
   
-  <script src="/theme/js/main.js"></script>
+  <script src="/theme/js/main.js?v={{ LASTCOMMIT }}"></script>
 </body>
 
 </html>

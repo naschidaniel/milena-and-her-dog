@@ -8,19 +8,10 @@ A simple blog, created with the Static Site Generator [Pelican](https://getpelic
 
 To run the project locally, python version 3.6+ and node version v12.18.3 are required. Use the following commands and you are ready to go.
 
-### Python Dependencies
 ```
-pip install pelican
-pip install markdown
-pip install invoke
-pip install livereload
-```
-
-### Node Dependencies
-```
+pip install -r requirements.txt
 npm install
 ```
-
 
 ### Compiles and hot-reloads for development
 
@@ -60,6 +51,7 @@ Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before maki
 
 ## Changelog
 
+- 2020-09-20 The last commit hash is used as version number for main.js and main.css.
 - 2020-09-20 Bundle css and js for production with webpack
 - 2020-09-19 Add tailwindcss and webpack
 - 2020-09-18 Improve Pelican Settings

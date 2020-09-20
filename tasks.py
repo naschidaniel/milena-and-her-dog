@@ -39,6 +39,7 @@ def clean(c):
 @task
 def build(c):
     """Build local version of site"""
+    set_environment_variables(c)
     pelican_run('-s {settings_base}'.format(**CONFIG))
 
 @task
@@ -146,6 +147,24 @@ def production(c):
     clean(c)
     npm_build(c)
     build(c)
+
+@task
+def set_environment_variables(c):
+    """A function to write local environment variables"""
+    lastcommit = c.run("git rev-parse --short HEAD")
+    lastcommit = lastcommit.stdout.strip()
+    print(f"The last commit number is {lastcommit}.")
+
+    env_variables = {"LASTCOMMIT": lastcommit}
+    try:
+        with open(".env", "w") as f:
+            for key, value in env_variables.items():
+                f.write(f"{key}={value}\n")
+            f.close()
+        print("The environment file was written.")
+
+    except:
+        print("The environment variable cannot be written.")
 
 
 def pelican_run(cmd):

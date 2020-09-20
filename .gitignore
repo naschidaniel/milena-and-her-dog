@@ -1,13 +1,16 @@
-# Python
-__pycache__
-*.pyc 
+# Editor
+.vscode
+
+# Environment
+.env
 
 # Pelican
 ## Build Folder
 output
 
-# Editor
-.vscode
+# Python
+__pycache__
+*.pyc 
 
 # Webpack
 node_modules
