@@ -118,6 +118,35 @@ def kill(c):
     """Terminate all processes on port 8000"""
     c.run("kill -9 $(lsof -i TCP:8000 | grep LISTEN | awk '{print $2}')")
 
+@task
+def npm_install(c):
+    """Install node Components"""
+    c.run("npm install")
+
+@task
+def npm_dev(c):
+    """Generate js and css Components for development"""
+    c.run("npm run-script dev")
+
+@task
+def npm_build(c):
+    """Build js and css Components for production"""
+    c.run("npm run-script build")
+
+@task
+def development(c):
+    """Generate css and js files and start the livereload server"""
+    clean(c)
+    npm_dev(c)
+    livereload(c)
+
+@task
+def production(c):
+    """Build Blog for production"""
+    clean(c)
+    npm_build(c)
+    build(c)
+
 
 def pelican_run(cmd):
     cmd += ' ' + program.core.remainder  # allows to pass-through args to pelican
