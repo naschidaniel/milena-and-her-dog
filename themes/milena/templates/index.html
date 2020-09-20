@@ -2,17 +2,8 @@
 
 {% block content %}
 
-<div id="index" class="mx-auto">
-  <main class="content" role="main">
-    <div class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
-      <div class="flex flex-wrap">
-        {% for bp in articles %}
-        <div class="w-full">
-          {% include "./article_perview.html" ignore missing with context %}
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </main>
-</div>
+  {% for bp in articles %}
+    {% include "./article_perview.html" ignore missing with context %}
+  {% endfor %}
+      
 {% endblock content %}    

@@ -25,8 +25,17 @@
 
   {% include "./navbar.html" %}
 
-  {% block content %}{% endblock content %}
-
+  <div id="index" class="mx-auto">
+    <main class="content" role="main">
+      <div class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
+        <div class="flex flex-wrap">
+          <div class="w-full">
+          {% block content %}{% endblock content %}
+        </div>
+      </div>
+    </div>
+    </main>
+  </div>
   {% include "./footer.html" %}
   
   <script src="/theme/js/main.js?v={{ LASTCOMMIT }}"></script>
