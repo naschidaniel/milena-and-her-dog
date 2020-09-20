@@ -1,12 +1,11 @@
 const path = require("path")
 const CompressionPlugin = require('compression-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./output/theme/js/main.js",
+  entry: "./themes/milena/static/js/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "./themes/milena/static/js"),
     filename: "[name].js",
     chunkFilename: "[name].js",
   },
@@ -22,11 +21,7 @@ module.exports = {
   plugins: [
     new CompressionPlugin(),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
-    }),
-    new HtmlWebPackPlugin({
-      template: "./output/index.html",
-      filename: "./index.html"
-    }),
-  ],
+      filename: '../css/[name].css',
+    })
+  ]
 }
