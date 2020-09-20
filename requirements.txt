@@ -1,0 +1,5 @@
+pelican
+markdown
+invoke
+livereload
+python-dotenv
