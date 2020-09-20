@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+import os
+import sys
+from dotenv import load_dotenv
+load_dotenv()
+
+
 AUTHOR = 'Daniel Naschberger'
 SITENAME = 'milena-and-her-dog.com'
 SITEURL = ''
@@ -11,6 +17,13 @@ DEFAULT_LANG = 'de'
 
 GITHUB_URL = 'https://github.com/naschidaniel/milena-and-her-dog'
 
+
+# Read Environment Variables
+try:
+    LASTCOMMIT = os.getenv("LASTCOMMIT")
+except:
+    print("Can not read .env file")
+    sys.exit(1)
 
 # Template
 THEME = 'themes/milena'
