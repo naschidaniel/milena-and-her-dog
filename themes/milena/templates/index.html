@@ -2,17 +2,17 @@
 
 {% block content %}
 
-<div id="index" class="container">
+<div id="index" class="mx-auto">
   <main class="content" role="main">
-
-    {% for p in pages %}
-    <span>{{ p.url }}</span>
-    {% endfor %}
-
-    {% for a in articles %}
-    <p>{{ a }}</p>
-    {% endfor %}
-
+    <div class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
+      <div class="flex flex-wrap">
+        {% for bp in articles %}
+        <div class="w-full">
+          {% include "./article_perview.html" ignore missing with context %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </main>
 </div>
 {% endblock content %}    
