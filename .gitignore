@@ -8,3 +8,10 @@ output
 
 # Editor
 .vscode
+
+# Webpack
+node_modules
+dist
+*.gz
+main.css
+main.js

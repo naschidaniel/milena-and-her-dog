@@ -5,11 +5,12 @@ AUTHOR = 'Daniel Naschberger'
 SITENAME = 'milena-and-her-dog.com'
 SITEURL = ''
 
-PATH = 'content'
-
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'de'
+
+GITHUB_URL = 'https://github.com/naschidaniel/milena-and-her-dog'
+
 
 # Template
 THEME = 'themes/milena'
@@ -37,6 +38,33 @@ SOCIALLINKS = {'Instagram': '#instagram',
               }
 
 DEFAULT_PAGINATION = 5
+
+# Date Formats
+DATE_FORMATS = {
+    'de': '%d.%m.%Y',
+    }
+
+# path-specific metadata
+EXTRA_PATH_METADATA = {
+    'static/robots.txt': {'path': 'robots.txt'},
+    }
+
+# Static files
+STATIC_PATHS = [
+    'images',
+    'static/robots.txt',
+    ]
+
+# URL Settings
+PATH = 'content'
+ARTICLE_PATHS = ['blog']
+ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
+
+PAGE_PATHS = ['pages']
+PAGE_URL = '/{slug}'
+PAGE_SAVE_AS = '{slug}/index.html'
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
