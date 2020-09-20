@@ -6,8 +6,9 @@ A simple blog, created with the Static Site Generator [Pelican](https://getpelic
 
 ## Installation
 
-To run the project locally, python version 3.6+ is required. Use the following commands and you are ready to go.
+To run the project locally, python version 3.6+ and node version v12.18.3 are required. Use the following commands and you are ready to go.
 
+### Python Dependencies
 ```
 pip install pelican
 pip install markdown
@@ -15,20 +16,31 @@ pip install invoke
 pip install livereload
 ```
 
+### Node Dependencies
+```
+npm install
+```
+
 
 ### Compiles and hot-reloads for development
 
-Pelican includes an integrated development server, after the local start the website is available at [http://localhost:8000/](http://localhost:8000/).
+Pelican includes an integrated development server (`invoke livereload`), after the local start the website is available at [http://localhost:8000/](http://localhost:8000/). The following command also creates the required tailwindcss style files. 
 
 ```
-invoke livereload
+invoke development
 ```
 
 ### Template and Design 
 
 A website should never exist twice on the web. Feel free to edit the template in the folder `./themes/milena/` the way you like it. Pelican uses [JINA2](https://jinja.palletsprojects.com/) as default template language. For the styling and the UI interface [tailwindcss](https://tailwindcss.com/) is used.
 
-Any other theme can also be used for this website. For more information, please refer to the Pelican documentation.
+Any other theme can also be used for this website. For more information, please refer to the Pelican documentation. 
+
+If basic settings are changed in Tailwindcss, the main.css file for the development environment must be recreated.
+
+```
+invoke npm-dev
+```
 
 
 ### Compiles for production
@@ -36,7 +48,7 @@ Any other theme can also be used for this website. For more information, please 
 The generated files are provided in the `./output` folder.
 
 ```
-pelican content
+invoke production
 ```
 
 
@@ -48,6 +60,9 @@ Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before maki
 
 ## Changelog
 
+- 2020-09-20 Bundle css and js for production with webpack
+- 2020-09-19 Add tailwindcss and webpack
+- 2020-09-18 Improve Pelican Settings
 - 2020-09-17 Init Repository
 
 
