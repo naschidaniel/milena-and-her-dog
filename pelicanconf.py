@@ -71,8 +71,8 @@ STATIC_PATHS = [
 # URL Settings
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
-ARTICLE_URL = 'blog/{date:%Y}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{slug}/index.html'
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}/index.html'
 
 PAGE_PATHS = ['pages']
 PAGE_URL = '/{slug}'
