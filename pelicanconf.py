@@ -9,7 +9,7 @@ load_dotenv()
 
 AUTHOR = 'Daniel Naschberger'
 SITENAME = 'milena-and-her-dog.com'
-SITEURL = '//milena-and-her-dog.com'
+SITEURL = ''
 
 TIMEZONE = 'Europe/Berlin'
 
