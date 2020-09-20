@@ -21,13 +21,22 @@
 </head>
 
 <body>
-  {% include './slider.html' %}
+  {% include "./slider.html" %}
 
-  {% include './navbar.html' %}
+  {% include "./navbar.html" %}
 
-  {% block content %}{% endblock content %}
-
-  {% include './footer.html' %}
+  <div id="index" class="mx-auto">
+    <main class="content" role="main">
+      <div class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
+        <div class="flex flex-wrap">
+          <div class="w-full">
+          {% block content %}{% endblock content %}
+        </div>
+      </div>
+    </div>
+    </main>
+  </div>
+  {% include "./footer.html" %}
   
   <script src="/theme/js/main.js?v={{ LASTCOMMIT }}"></script>
 </body>

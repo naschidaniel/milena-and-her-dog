@@ -2,17 +2,8 @@
 
 {% block content %}
 
-<div id="index" class="container">
-  <main class="content" role="main">
-
-    {% for p in pages %}
-    <span>{{ p.url }}</span>
-    {% endfor %}
-
-    {% for a in articles %}
-    <p>{{ a }}</p>
-    {% endfor %}
-
-  </main>
-</div>
+  {% for bp in articles %}
+    {% include "./article_perview.html" ignore missing with context %}
+  {% endfor %}
+      
 {% endblock content %}    
