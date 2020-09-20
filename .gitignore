@@ -12,3 +12,6 @@ output
 # Webpack
 node_modules
 dist
+*.gz
+main.css
+main.js
