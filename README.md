@@ -51,6 +51,7 @@ Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before maki
 
 ## Changelog
 
+- 2020-09-20 The last commit hash is used as version number for main.js and main.css.
 - 2020-09-20 Bundle css and js for production with webpack
 - 2020-09-19 Add tailwindcss and webpack
 - 2020-09-18 Improve Pelican Settings
