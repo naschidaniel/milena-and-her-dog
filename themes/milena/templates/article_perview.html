@@ -1,7 +1,7 @@
 <div class="shadow-md rounded overflow-hidden md:mt-10">
   <div
     class="bg-cover bg-center"
-    style="background-image: url('/blog/{{ bp.mainimage }}')"
+    style="background-image: url('/{{ bp.url }}{{ bp.slug }}/{{ bp.mainimage }}')"
     :title="bp.mainImageAlt"
   >
     <a href="{{ bp.url }}">
