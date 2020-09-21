@@ -45,9 +45,9 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social links
-SOCIALLINKS = {'Instagram': '#instagram',
-               'Facebook': '#facebook',
-               'Pinterrest': '#pinterrest'
+SOCIALLINKS = {'Instagram': 'https://www.instagram.com/milena_and_her_dog/',
+               'Facebook': 'https://www.facebook.com/milenaandherdog/',
+               'Pinterrest': 'https://www.pinterest.at/milenaandherdog/'
               }
 
 DEFAULT_PAGINATION = 5
