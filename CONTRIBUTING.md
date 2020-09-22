@@ -3,6 +3,7 @@ Hi! I'm really excited that you are interested in contributing to ***milena-and-
 
 - [Style Guide](#style-guide)
 - [Development Setup](#development-setup)
+- [Local Installation](#local-installation)
 
 
 ## Style Guide
@@ -10,6 +11,9 @@ The aim of the software is to create an easily readable and clear structure. To 
 
 
 ## Development Setup
-You will need [python](https://www.python.org/) **version 3.7+** [pelican](https://docs.getpelican.com/en/stable/quickstart.html#installationl) **version 4.5.0+**, [markdown](https://daringfireball.net/projects/markdown/) **version 1.0.1+**, [invoke](http://www.pyinvoke.org/) **version 1.4.1+** and [livereload](https://github.com/lepture/python-livereload) **version 2.6.3+**.
+You will need the following Python dependencies [python](https://www.python.org/) **version 3.7+** [pelican](https://docs.getpelican.com/en/stable/quickstart.html#installationl) **version 4.5.0+**, [markdown](https://daringfireball.net/projects/markdown/) **version 1.0.1+**, [invoke](http://www.pyinvoke.org/) **version 1.4.1+** and [livereload](https://github.com/lepture/python-livereload) **version 2.6.3+**.
+The JavaScript engine [node](https://nodejs.org/) ***version 12.18.4+*** is required. To bundle the Javascript- and CSS-artifacts [webpack](https://webpack.js.org/) ***version 4.44.2+*** is used.
 
+
+## Local Installation
 After cloning the repo, please follow the steps under **Installation** in the [Readme.md](./Readme.md).
