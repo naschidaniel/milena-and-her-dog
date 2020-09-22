@@ -1,0 +1,43 @@
+name: release on GH-Pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  gh-pages:
+    name: Build milena-and-her-dog.com
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Node dependencies
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+        run: invoke npm-install
+
+
+      - name: Build JS and CSS Artifacts
+        run: npm run-script build
+
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+        run:
+          python -m pip install --upgrade pip
+          pip install requirements.txt
+
+
+      - name: Build Pelican Page for Production 
+        run: invoke publish
+
+      
+      - name: Deploy on GH-Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
