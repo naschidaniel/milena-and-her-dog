@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - run: invoke npm-install
+      - run: npm install
 
 
       - name: Build JS and CSS Artifacts
