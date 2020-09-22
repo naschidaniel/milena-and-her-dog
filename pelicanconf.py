@@ -57,14 +57,14 @@ DATE_FORMATS = {
 # path-specific metadata
 EXTRA_PATH_METADATA = {
     'static/robots.txt': {'path': 'robots.txt'},
+    'static/CNAME': {'path': 'CNAME'},
+    'static/.nojekyll': {'path': '.nojekyll'},
     }
 
 # Static files
 STATIC_PATHS = [
     'images',
-    'static/CNAME',
-    'static/.nojyekyll',
-    'static/robots.txt',
+    'static',
     ]
 
 # URL Settings
