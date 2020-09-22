@@ -73,10 +73,6 @@ def reserve(c):
     build(c)
     serve(c)
 
-@task
-def preview(c):
-    """Build production version of site"""
-    pelican_run('-s {settings_publish}'.format(**CONFIG))
 
 @task
 def livereload(c):
@@ -100,18 +96,6 @@ def livereload(c):
         server.watch(static_file, lambda: build(c))
     # Serve output path on configured host and port
     server.serve(host=CONFIG['host'], port=CONFIG['port'], root=CONFIG['deploy_path'])
-
-
-@task
-def publish(c):
-    """Publish to production via rsync"""
-    pelican_run('-s {settings_publish}'.format(**CONFIG))
-    c.run(
-        'rsync --delete --exclude ".DS_Store" -pthrvz -c '
-        '-e "ssh -p {ssh_port}" '
-        '{} {ssh_user}@{ssh_host}:{ssh_path}'.format(
-            CONFIG['deploy_path'].rstrip('/') + '/',
-            **CONFIG))
 
 
 @task
@@ -142,11 +126,19 @@ def development(c):
     livereload(c)
 
 @task
-def production(c):
-    """Build Blog for production"""
+def preview(c):
+    """Build a Blog preview for localhost"""
     clean(c)
     npm_build(c)
     build(c)
+
+@task
+def publish(c):
+    """Build for gh-pages"""
+    clean(c)
+    set_environment_variables(c)
+    pelican_run('-s {settings_publish}'.format(**CONFIG))
+
 
 @task
 def set_environment_variables(c):

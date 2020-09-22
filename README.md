@@ -1,17 +1,17 @@
 # milena-and-her-dog
 
-A simple blog, created with the Static Site Generator [Pelican](https://getpelican.com/). In section [CHANGELOG](#CHANGELOG) the already implemented parts of the websites are listed.
-
+A simple blog, created with the Static Site Generator [Pelican](https://getpelican.com/). In section [CHANGELOG](#CHANGELOG) the already implemented parts of the websites are listed. The blog is built with [github actions](https://docs.github.com/en/actions). The build of the website is provided via [github pages](https://pages.github.com/).
 
 
 ## Installation
 
-To run the project locally, python version 3.6+ and node version v12.18.3 are required. Use the following commands and you are ready to go.
+To run the project locally, python version 3.7+ and node version v12.18.3+ are required. Use the following commands and you are ready to go. Details about the required dependencies can be found in the [Contributing Guide](./CONTRIBUTING.md).
 
 ```
 pip install -r requirements.txt
 npm install
 ```
+
 
 ### Compiles and hot-reloads for development
 
@@ -20,6 +20,7 @@ Pelican includes an integrated development server (`invoke livereload`), after t
 ```
 invoke development
 ```
+
 
 ### Template and Design 
 
@@ -34,16 +35,24 @@ invoke npm-dev
 ```
 
 
-### Compiles for production
+### Compiles for a preview on Localhost production
 
 The generated files are provided in the `./output` folder.
 
 ```
-invoke production
+invoke preview
+```
+
+### Compiles for production
+
+A different settings file is used for publishing. The required settings can be made in the file `publishconf.py`.
+
+```
+invoke publish
 ```
 
 
-## Contribution
+## Contribution and Pull Requests
 
 Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before making a pull request.
 
@@ -51,6 +60,8 @@ Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before maki
 
 ## Changelog
 
+- 2020-09-22 Integration of GitHub actions and publish on GH-PAGES
+- 2020-09-21 Migration of old blog articles and pages from djangoVue
 - 2020-09-20 The last commit hash is used as version number for main.js and main.css.
 - 2020-09-20 Bundle css and js for production with webpack
 - 2020-09-19 Add tailwindcss and webpack
