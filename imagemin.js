@@ -2,7 +2,7 @@ const imagemin = require("imagemin-keep-folder");
 const imageminPngquant = require("imagemin-pngquant");
 const imageminMozjpeg = require("imagemin-mozjpeg");
 
-imagemin(['output/**/*.{jpg,png}'], {
+imagemin(["output/**/*.{jpg,png}"], {
   use: [
     imageminMozjpeg({
       quality: 60,
@@ -11,6 +11,6 @@ imagemin(['output/**/*.{jpg,png}'], {
       quality: [0.7, 0.8],
     }),
   ],
-}).then(files => { 
+}).then((files) => {
   console.log(files);
 });
