@@ -5,6 +5,7 @@ Mainimage: frieda-schnee.jpg
 Category: Friedas Zitate
 Tags: Frieda, Schnee
 Slug: friedas-zitat-schnee
+Authors: Frieda
 Summary: 
 
 
