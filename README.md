@@ -60,6 +60,7 @@ Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before maki
 
 ## Changelog
 
+- 2020-09-23 Image compression with [imagemin](https://github.com/imagemin/imagemin)
 - 2020-09-22 Integration of GitHub actions and publish on GH-PAGES
 - 2020-09-21 Migration of old blog articles and pages from djangoVue
 - 2020-09-20 The last commit hash is used as version number for main.js and main.css.
