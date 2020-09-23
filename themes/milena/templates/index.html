@@ -3,7 +3,12 @@
 {% block content %}
 
   {% for bp in articles %}
-    {% include "./article_preview.html" ignore missing with context %}
+    {% if bp.author == 'Frieda' %}
+      {% include "./quote_preview.html" ignore missing with context %}
+    {% else %}
+      {% include "./article_preview.html" ignore missing with context %}
+    {% endif %}
+      
   {% endfor %}
       
 {% endblock content %}    
