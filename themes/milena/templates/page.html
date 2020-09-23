@@ -5,37 +5,16 @@
     {{ super() }}
 
     <link href="{{ SITEURL }}/{{ page.url }}" rel="canonical" />
-    {% for keyword in page.keywords %}
-        <meta name="keywords" content="{{keyword}}" >
-    {% endfor %}
-
-    {% if description %}
-        <meta name="description" content="{{ description }}">
-    {% elif page.headline %}
-        <meta name="description" content="{{ page.headline }}">
-    {% elif page.summary %}
-        <meta name="description" content="{{ page.summary|striptags|truncate(140) }}">
-    {% endif %}
-
-    {% for author in page.authors %}
-        <meta name="author" content="{{ author }}">
-    {% endfor %}
-
-    {% for tag in page.tags %}
-        <meta name="tags" content="{{tag}}">
-    {% endfor %}
 {% endblock head %}
 
 
 
 {% block content %}
 
-<div class="antialiased flex flex-col min-h-screen">
-  <main class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
-    <div>
-      <div class="content font-content text-gray-700">{{ page.content }}</div>
-    </div>
-  </main>
-</div>
+<main class="mx-auto flex-grow w-full px-3 lg:max-w-6xl">
+  <div>
+    <div class="content font-content text-gray-700">{{ page.content }}</div>
+  </div>
+</main>
 
 {% endblock content %}

@@ -31,6 +31,11 @@ THEME_STATIC_DIR = 'theme'
 THEME_STATIC_PATHS = ['static']
 CSS_FILE = 'main.css'
 
+# META TAG INFORMATION
+META_DESCRIPTION = 'Hi ich bin Milena! Auf meinem Blog erfährst du alles über mich und Frieda.'
+META_KEYWORDS ='Milena, Frieda, Reisen, Stricken, Hund, Blog'
+
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
