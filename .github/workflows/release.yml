@@ -3,11 +3,7 @@ name: release on GH-Pages
 on:
   push:
     branches: [ master ]
-    paths:
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.png'
-      - '**.webp'
+
 jobs:
   gh-pages:
     name: Build milena-and-her-dog.com
