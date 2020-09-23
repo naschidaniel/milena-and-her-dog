@@ -2,7 +2,7 @@ Title: About Frieda
 slug: about-frieda
 
 
-## They call me Frieda… 
+# They call me Frieda… 
 
 Schwer mit den Pfoten die kleinen Tasten zu treffen, aber ich versuchs! 
  
