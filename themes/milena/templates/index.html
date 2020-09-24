@@ -3,7 +3,7 @@
 {% block content %}
 
   {% for bp in articles %}
-    {% if bp.author == 'Frieda' %}
+    {% if bp.type == 'quote' %}
       {% include "./quote_preview.html" ignore missing with context %}
     {% else %}
       {% include "./article_preview.html" ignore missing with context %}
