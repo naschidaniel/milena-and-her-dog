@@ -34,9 +34,9 @@ li {
   @apply list-disc;
 }
 p {
-  @apply flex flex-wrap max-w-full mb-3 text-base ;
+  @apply flex flex-wrap max-w-full mb-3 text-base;
 }
 img {
-  @apply rounded shadow-2xl w-full ;
+  @apply rounded shadow-2xl w-full;
 }
 /* purgecss end ignore */
