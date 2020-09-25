@@ -37,8 +37,10 @@ jobs:
       - name: Build Pelican Page for Production 
         run: invoke publish
 
+
       - name: Postprocess images with imagemin
         run: npm run-script imagemin
+
 
       - name: Deploy on GH-Pages
         uses: peaceiris/actions-gh-pages@v3
