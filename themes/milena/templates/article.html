@@ -30,8 +30,8 @@
 
 <h1>{{ article.title }}</h1>
 
-<div class="mt-4">
-  {{ article.content }}
+<div class="mt-4 markdown">
+  {{ article.content | replace("[start-milena-img-show]",'<div id="img-slideshow" class="img-slideshow flex justify-center">') | replace("[end-milena-img-show]","</div>") }}
 </div>
 
 {% endblock content %}
