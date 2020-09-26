@@ -5,7 +5,7 @@ module.exports = {
 
     // These options are passed through directly to PurgeCSS
     options: {
-      whitelist: ['bg-red-500', 'px-4'],
+      whitelist: ['bg-red-500', 'px-4', 'mr-3', 'mr-0', 'mb-5'],
     }
   },
   theme: {
