@@ -855,12 +855,36 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
+.markdown h2 {
+  font-size: 1.25rem;
+  --text-opacity: 1;
+  color: #e53e3e;
+  color: rgba(229, 62, 62, var(--text-opacity));
+  margin-top: 1.5rem;
+}
+
 .markdown h3 {
   font-size: 1.125rem;
   --text-opacity: 1;
   color: #e53e3e;
   color: rgba(229, 62, 62, var(--text-opacity));
   margin-top: 1rem;
+}
+
+.markdown h4 {
+  font-size: 1rem;
+  --text-opacity: 1;
+  color: #e53e3e;
+  color: rgba(229, 62, 62, var(--text-opacity));
+  margin-top: 0.75rem;
+}
+
+.markdown ul {
+  list-style-position: inside;
+}
+
+.markdown li {
+  list-style-type: disc;
 }
 
 .markdown p {
@@ -874,6 +898,18 @@ h1 {
 .markdown img {
   border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.img-slideshow img {
+  border-radius: 0.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-right: 0.75rem;
+}
+
+.img-slideshow img:last-child {
+  border-radius: 0.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-right: 0;
 }
 
 @media (min-width: 640px) {
