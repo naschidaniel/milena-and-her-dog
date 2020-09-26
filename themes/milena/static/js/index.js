@@ -36,10 +36,15 @@ function imgSlideShowMilena() {
   }
 }
 
+// wrapper function
+function actionOnResize() {
+  closeMenu();
+  imgSlideShowMilena();
+}
 
 // call functions on depending on actions
 window.onload = imgSlideShowMilena;
 
-window.onresize = imgSlideShowMilena;closeMenu;
+window.onresize = actionOnResize;
 
 document.getElementById("nav-toggle").onclick = toggleMenu;
