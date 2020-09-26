@@ -25,7 +25,6 @@ function imgSlideShowMilena() {
       if (window.innerWidth <= 640) {
         imgElements[prop].parentElement.classList.remove("flex")
         imgElements[prop].parentElement.classList.remove("justify-center")
-        imgElements[prop].classList.add("mb-5")
         imgElements[prop].style.width = "100%"
       } else {
       const percentWidth = (100 - 10) / imgElements[prop].parentElement.childElementCount;

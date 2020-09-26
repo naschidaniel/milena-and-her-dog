@@ -36,9 +36,9 @@ h1 {
   @apply rounded shadow-2xl;
 }
 .img-slideshow img {
-  @apply rounded shadow-2xl mr-3;
+  @apply rounded shadow-2xl mb-5 mr-3;
 }
 .img-slideshow img:last-child {
-  @apply rounded shadow-2xl mr-0;
+  @apply rounded shadow-2xl mb-5 mr-0;
 }
 /* purgecss end ignore */
