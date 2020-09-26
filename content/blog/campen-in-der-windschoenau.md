@@ -1,14 +1,13 @@
 Title: Mit dem Camper zur Schönangeralm in der Wildschönau
 Subtitle: Unterwegs mit dem Wohnmobil
 Date: 2020-05-05 14:49
-Mainimage: Wildschoenau_Alpen.jpg
+Mainimage: /images/campen-in-der-wildschoenau/Wildschoenau_Alpen.jpg
 Tags: personal, python
 Category: Reisen
 Slug: campen-in-der-wildschoenau
 Author: Milena
 Summary: Manchmal muss man gar nicht in die Ferne schweife um Urlaub zu machen, 15 Minuten Fahrt an einen fremden Ort reichen vollkommen aus.
 
-![Wildschoenau Alpen](/images/campen-in-der-wildschoenau/Wildschoenau_Alpen.jpg) 
 
 Heute regnet es draußen, der perfekte Tag um in Erinnerungen an die erste Nacht unseres lang ersehnten 4-Tages-Campingtrip zu schwelgen. 
 Mein eigentlicher Plan hat vorgesehen, dass wir Hans Peter Poessl, das Wohnmobil, nach der Arbeit in der Wildschönau abholen und uns dann auf den Weg nach Osttirol machen. Aber wenn man die Schwiegereltern, die netterweise auch unsere Wohnmobilverleiher sind, wochenlang wegen der Corona-Kontaktsperren nicht gesehen hat, dann kann man sich schon mal verquatschen.

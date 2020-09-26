@@ -1,15 +1,13 @@
 Title: Gardasee
 Subtitle: Limone mit Hund
 Date: 2020-03-03 10:20
-Mainimage: limone.jpg
+Mainimage: /images/gardasee-limone/limone.jpg
 Category: Reisen
 Tags: Reisen, Limone, Gardasse
 Slug: gardasee-limone
 Authors: Milena
 Summary: Nur 2,5 Stunden von Innsbruck entfernt lockt Limone nicht nur mit italienischer Lebensart und wundervollen Eindrücken, sondern auch mit Hundefreundlichkeit, kleinen Gassen und einem unglaublichen Blick über die historische Altstadt und den Gardasee.
 
-
-![Limone](/images/gardasee-limone/limone.jpg)
 
 
 ## Von Sarche nach Limone sul Garda
