@@ -2,6 +2,7 @@ Title: Innsbrucker Klettersteig
 Subtitle: Klettern mit Hund
 Date: 2020-03-01 16:23
 Mainimage: /images/innsbrucker-klettersteig/innsbrucker-klettersteig.jpg
+Mainimagealttext: Klettersteig und Berge
 Tags: personal, python
 Category: Pelican
 Slug: innsbrucker-klettersteig

@@ -2,6 +2,7 @@ Title: Gardasee
 Subtitle: Limone mit Hund
 Date: 2020-03-03 10:20
 Mainimage: /images/gardasee-limone/limone.jpg
+Mainimagealttext: Limone von oben
 Category: Reisen
 Tags: Reisen, Limone, Gardasse
 Slug: gardasee-limone

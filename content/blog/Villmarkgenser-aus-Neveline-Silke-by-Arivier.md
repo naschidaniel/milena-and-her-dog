@@ -2,6 +2,7 @@ Title: Villmarkgenser aus Neveline Silke by Arivier
 Subtitle: Norweger Pulli Stricken
 Date: 2020-04-01 17:00
 Mainimage: /images/Villmarkgenser-aus-Neveline-Silke-by-Arivier/villmarkgenser.jpg
+Mainimagealttext: Pulover
 Tags: personal, python
 Category: Pelican
 Slug: Villmarkgenser-aus-Neveline-Silke-by-Arivier
