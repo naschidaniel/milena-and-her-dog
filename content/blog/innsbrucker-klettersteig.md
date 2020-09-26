@@ -1,14 +1,13 @@
 Title: Innsbrucker Klettersteig
 Subtitle: Klettern mit Hund
 Date: 2020-03-01 16:23
-Mainimage: innsbrucker-klettersteig.jpg
+Mainimage: /images/innsbrucker-klettersteig/innsbrucker-klettersteig.jpg
 Tags: personal, python
 Category: Pelican
 Slug: innsbrucker-klettersteig
 Author: Milena
 Summary: Heimspiel in Sachen Klettersteig mit Hund: Der Innsbrucker Klettersteig. Mit dem Fahrrad geht es zur Nordkettenbahn. Achtung, den Maulkorb für den Hund nicht vergessen, denn ohne gelangt der Hund erst gar nicht hoch zum Hafelekar.
 
-![Innsburcker Klettersteig](/images/innsbrucker-klettersteig/innsbrucker-klettersteig.jpg)
 
 Heimspiel in Sachen Klettersteig mit Hund: Der Innsbrucker Klettersteig. Mit dem Fahrrad geht es zur Nordkettenbahn. Achtung, den Maulkorb für den Hund nicht vergessen, denn ohne gelangt der Hund erst gar nicht hoch zum Hafelekar. Frieda ist kein großer Fan davon einen Maulkorb zu tragen, stehen geht, aber mit dem Ding laufen, nie im Leben! Mein Tipp: Ganz vorne Einsteigen und den Fahrer lieb fragen, ob der Hund vorne bei ihm sitzen darf. Klappte bisher immer und Frieda steht nicht mitten im Gedränge. Mit dem Freizeitticket Tirol fahren Hund und Frauchen kostenlos. Und auch bei einem normalen Ticket kann man den Vierbeiner kostenlos mitnehmen. Ganze zweimal muss man von Innsbruck Stadtmitte umsteigen, bis man oben bei Hafelekar ist. Von hier aus hat man den Einstieg des Klettersteigs in weniger als 5 Minuten erreicht.
 

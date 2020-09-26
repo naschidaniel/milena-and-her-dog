@@ -1,7 +1,7 @@
 Title: Villmarkgenser aus Neveline Silke by Arivier
 Subtitle: Norweger Pulli Stricken
 Date: 2020-04-01 17:00
-Mainimage: villmarkgenser.jpg
+Mainimage: /images/Villmarkgenser-aus-Neveline-Silke-by-Arivier/villmarkgenser.jpg
 Tags: personal, python
 Category: Pelican
 Slug: Villmarkgenser-aus-Neveline-Silke-by-Arivier
@@ -9,7 +9,6 @@ Author: Milena
 Summary: Mein Lieblingsnorwegerpulli aus italienischer Wolle. Was als Abenteuer in einem kleinen italienischen Wollladen begann, ist mein Lieblingspulli geworden.
 
 
-![Villmarkgenser Side](/images/Villmarkgenser-aus-Neveline-Silke-by-Arivier/villmarkgenser.jpg) 
 
 Anfang Januar im italienischen Arco. Google sagt, dass es hier einen kleinen Wollladen “Idea Donna” mit italienischer Wolle geben soll. Etwas versteckt betrete ich einen kleinen Laden vollgestopft mit Wolle in allen Farben und Qualitäten und einer Verkäuferin, die lautstark auf italienisch telefoniert. 
 
