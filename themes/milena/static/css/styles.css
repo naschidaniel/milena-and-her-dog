@@ -10,6 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+/* purgecss start ignore */
 h1 {
   @apply text-3xl text-red-600 mt-8 mb-5;
 }
@@ -40,3 +41,4 @@ h1 {
 .img-slideshow img:last-child {
   @apply rounded shadow-2xl mr-0;
 }
+/* purgecss end ignore */
