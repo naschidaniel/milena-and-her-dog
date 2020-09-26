@@ -13,7 +13,7 @@
 
 <main class="mx-auto flex-grow w-full lg:max-w-6xl">
   <div>
-    <div class="content font-content text-gray-700">{{ page.content }}</div>
+    <div class="font-content text-gray-700 markdown">{{ page.content | milena_custom_filter}}</div>
   </div>
 </main>
 

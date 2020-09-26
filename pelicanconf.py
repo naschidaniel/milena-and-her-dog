@@ -6,6 +6,10 @@ import sys
 from dotenv import load_dotenv
 load_dotenv()
 
+# import custom files
+sys.path.append('.')
+import custom_jinja_filter
+
 
 AUTHOR = 'Daniel Naschberger'
 SITENAME = 'milena-and-her-dog.com'
@@ -82,6 +86,9 @@ PAGE_PATHS = ['pages']
 PAGE_URL = '/{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
 
+
+# Custom Filters
+JINJA_FILTERS = {'milena_custom_filter':custom_jinja_filter.milena_custom_filter}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
