@@ -28,6 +28,12 @@
 
 {% block content %}
 
+<h1>
+  {{ article.title }}
+</h1>
+
+<img src="{{ article.mainimage }}" alt="{{ article.mainimagetitle }}" class="markdown">
+
 <div class="mt-4 markdown">
   {{ article.content | milena_custom_filter }}
 </div>
