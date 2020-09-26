@@ -52,14 +52,68 @@ invoke publish
 ```
 
 
+## How to post blog entries
+
+Nothing easier than that. Create a markdown file in the folder `./content/blog`. The name of the file corresponds to the `slug` of the blog post. 
+The required images are stored in `./content/images/` with the corresponding `slug` as folder name. 
+
+### Blog Entry
+
+For blog entries this template can be used.
+
+```
+Title:
+Subtitle:
+Date: YYYY-MM-DD HH:MM
+Mainimage: /images/{slug}/{filename}
+Mainimagealttext: 
+text:
+Tags:
+Category:
+Slug:
+Author:
+Summary:
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+![{alt text description}](/images/{slug}/{imagename}.jpg) 
+
+## H2 headline
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+### H3 headline slider for portrait photos
+[start-milena-img-show]
+  ![{alt text description}](/images/{slug}/{imagename}.jpg) 
+  ![{alt text description}](/images/{slug}/{imagename}.jpg) 
+[end-milena-img-show]
+```
+
+### Friedas Quotes
+
+For blog entries this template can be used.
+
+```
+Title:
+Subtitle:
+Date: YYYY-MM-DD HH:MM
+Mainimage: /images/{slug}/{filename}
+Mainimagealttext:
+text:
+Slug: friedas-zitat-{slug}
+Type: quote
+```
+
 ## Contribution and Pull Requests
 
 Please make sure to read the [Contributing Guide](./CONTRIBUTING.md) before making a pull request.
 
 
-
 ## Changelog
 
+- 2020-09-26 Active links are marked
+- 2020-09-26 A custom JINJA 2 filter for a simple image slider was added 
 - 2020-09-23 Image compression with [imagemin](https://github.com/imagemin/imagemin)
 - 2020-09-22 Integration of GitHub actions and publish on GH-PAGES
 - 2020-09-21 Migration of old blog articles and pages from djangoVue
