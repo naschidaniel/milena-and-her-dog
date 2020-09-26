@@ -28,8 +28,10 @@ Am nächsten Morgen dann die Überraschung beim Hochziehen der Rollos. Wir stand
 Ein Frühstück später ging es los, wandern. Erst einmal ohne Plan, bis wir nach wenigen Meter einen Wegweiser Lämpertsberg 3h entdeckten. 
 Über einen Forstweg ging es immer höher und höher, bis sich vor uns ein wundervoller Blick über die Kitzbühler- und Zillertaler Alpen auftat. Im Himmel sammelten sich langsam Wolken und erste Schneefelder mussten durchstiegen werden.
 
-![Lempersberg](/images/campen-in-der-wildschoenau/Laempersberg.jpg) 
-![Huette Wildschönau](/images/campen-in-der-wildschoenau/huette_wildschoenau.jpg) 
+[start-milena-img-show]
+  ![Lempersberg](/images/campen-in-der-wildschoenau/Laempersberg.jpg) 
+  ![Huette Wildschönau](/images/campen-in-der-wildschoenau/huette_wildschoenau.jpg) 
+[end-milena-img-show]
 
 Im Sommer ist die Tour ideal für einen Bike-and-Hike-Ausflug. Wandert man doch bis fast zum Gipfel eine Forststraße entlang. Kurz vor dem Gipfel zwangen es uns jedoch immer höhere werdende Altschneefelder zur Umkehr. Auf dem Rückweg spielten am Himmel dunkel Wolken gegen ein strahlendes blau und tauchten alles in ein ganz besonderes Licht.
 
