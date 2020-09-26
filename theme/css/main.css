@@ -611,6 +611,10 @@ img {
   margin-right: 0.75rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -715,6 +719,10 @@ img {
 
 .shadow-lg {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
 .fill-current {
@@ -898,19 +906,20 @@ h1 {
 .markdown img {
   border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.75rem;
 }
 
 .img-slideshow img {
   border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   margin-right: 0.75rem;
 }
 
 .img-slideshow img:last-child {
   border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   margin-right: 0;
 }
 
