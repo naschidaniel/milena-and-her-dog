@@ -864,9 +864,10 @@ h1 {
   color: #e53e3e;
   color: rgba(229, 62, 62, var(--text-opacity));
   margin-top: 2rem;
+  margin-bottom: 1.25rem;
 }
 
-h2 {
+.markdown h2 {
   font-size: 1.25rem;
   --text-opacity: 1;
   color: #e53e3e;
@@ -874,7 +875,7 @@ h2 {
   margin-top: 1.5rem;
 }
 
-h3 {
+.markdown h3 {
   font-size: 1.125rem;
   --text-opacity: 1;
   color: #e53e3e;
@@ -882,7 +883,7 @@ h3 {
   margin-top: 1rem;
 }
 
-h4 {
+.markdown h4 {
   font-size: 1rem;
   --text-opacity: 1;
   color: #e53e3e;
@@ -890,15 +891,15 @@ h4 {
   margin-top: 0.75rem;
 }
 
-ul {
+.markdown ul {
   list-style-position: inside;
 }
 
-li {
+.markdown li {
   list-style-type: disc;
 }
 
-p {
+.markdown p {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
@@ -906,10 +907,21 @@ p {
   font-size: 1rem;
 }
 
-img {
+.markdown img {
   border-radius: 0.25rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  width: 100%;
+}
+
+.img-slideshow img {
+  border-radius: 0.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-right: 0.75rem;
+}
+
+.img-slideshow img:last-child {
+  border-radius: 0.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  margin-right: 0;
 }
 
 @media (min-width: 640px) {

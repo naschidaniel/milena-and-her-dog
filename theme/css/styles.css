@@ -16,27 +16,33 @@ img {md:mr-1;}
 img {md:ml-1;}
 
 h1 {
-  @apply text-3xl text-red-600 mt-8;
+  @apply text-3xl text-red-600 mt-8 mb-5;
 }
-h2 {
+.markdown h2 {
   @apply text-xl text-red-600 mt-6;
 }
-h3 {
+.markdown h3 {
   @apply text-lg text-red-600 mt-4;
 }
-h4 {
+.markdown h4 {
   @apply text-base text-red-600 mt-3;
 }
-ul {
+.markdown ul {
   @apply list-inside;
 }
-li {
+.markdown li {
   @apply list-disc;
 }
-p {
+.markdown p {
   @apply flex flex-wrap max-w-full mb-3 text-base;
 }
-img {
-  @apply rounded shadow-2xl w-full;
+.markdown img {
+  @apply rounded shadow-2xl;
+}
+.img-slideshow img {
+  @apply rounded shadow-2xl mr-3;
+}
+.img-slideshow img:last-child {
+  @apply rounded shadow-2xl mr-0;
 }
 /* purgecss end ignore */
