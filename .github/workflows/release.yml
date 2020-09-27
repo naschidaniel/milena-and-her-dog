@@ -10,26 +10,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout repository
         uses: actions/checkout@v2
 
 
-      - name: Install Node dependencies
+      - name: Install node dependencies
         uses: actions/setup-node@v1
         with:
           node-version: '12'
       - run: npm install
 
 
-      - name: Build JS and CSS Artifacts
+      - name: Build javascript and CSS artifacts
         run: npm run-script build
 
 
-      - name: Set up Python 3.7
+      - name: Set up python 3.7
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
-      - run:
+
+
+      - name: Install python dependencies
+        run:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -47,3 +50,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
+
+
+      - name: Clean up output directory
+        run: invoke delete-unused-template-files
+
