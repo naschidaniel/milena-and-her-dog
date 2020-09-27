@@ -11,12 +11,12 @@ Summary: Manchmal muss man gar nicht in die Ferne schweife um Urlaub zu machen, 
 
 
 Heute regnet es draußen, der perfekte Tag um in Erinnerungen an die erste Nacht unseres lang ersehnten 4-Tages-Campingtrip zu schwelgen. 
-Mein eigentlicher Plan hat vorgesehen, dass wir Hans Peter Poessl, das Wohnmobil, nach der Arbeit in der Wildschönau abholen und uns dann auf den Weg nach Osttirol machen. Aber wenn man die Schwiegereltern, die netterweise auch unsere Wohnmobilverleiher sind, wochenlang wegen der Corona-Kontaktsperren nicht gesehen hat, dann kann man sich schon mal verquatschen.
+Mein eigentlicher Plan hat vorgesehen, dass wir Hans Peter Poessl, das Wohnmobil, nach der Arbeit in der Wildschönau abholen und uns dann auf den Weg nach Osttirol machen. Aber wenn wegen der Coronasperren schon wochenlang keinen mehr gesehen hat, dann kann man sich schon mal verquatschen.
 
 ![Pössel Dronenfoto](/images/campen-in-der-wildschoenau/Poessl_Drone.jpg) 
 
 ## Die wohl kürzeste Anreise unseres Lebens 
-Und so kam es, dass wir spät in der Nacht eine letzte Tasse Tee schlürften, der Hund schon tief und fest schlief und keiner von uns beiden so richtig Lust hatte in der Dunkelheit mit dem großen Poessl eine unbekannte Strecke zu fahren und den Stellplatz zu suchen. 
+Und so kam es, dass wir spät in der Nacht eine letzte Tasse Tee schlürften, der Hund schon tief und fest schlief und keiner von uns so richtig Lust hatte in der Dunkelheit mit dem großen Poessl eine unbekannte Strecke zu fahren und den Stellplatz zu suchen. 
 Warum also nicht einen Nacht in der Wildschönau verbringen? Ja, warum eigentlich nicht! Kaum war die Idee ausgesprochen saßen wir auch schon im Wohnmobil und fuhren Richtung Schönangeralm. Es war stockdunkel und nach 15 Minuten versuchten wir den Poessl einigermaßen gerade hinzustellen.
 
 

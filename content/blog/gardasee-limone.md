@@ -25,7 +25,7 @@ Wir sind in der Nebensaison da, und so früh morgen sind außer mir und Frieda n
 
 ## Von Booten und grandiosen Ausblicken 
 
-Links von uns schneiden zwei ältere Herren Wein, der an einer der bunten Häuserwände entlang wächst und laden den Abschnitt auf eine dreirädriges knallroten, etwas in die Jahre gekommen Piaggio. rechts davon ist eine Reihe kleiner in allen Blautönen leuchtenden Booten fest verzurrt und schaukelt in den leichten Wellengang des Gardasees. 
+Links von uns schneiden zwei ältere Herren Wein, der an einer der bunten Häuserwände entlang wächst und laden den Abschnitt auf eine dreirädriges knallroten, etwas in die Jahre gekommen, Piaggio. rechts davon ist eine Reihe kleiner in allen Blautönen leuchtenden Booten fest verzurrt und schaukelt in den leichten Wellengang des Gardasees. 
 Hach, gerade mal 2,5 Stunden vom verschneiten Innsbruck entfernt kommt Sommerfeeling auf. Wir setzen und auf eine kleine Mauer und schauen den Booten und Enten zu. 
 Wir schlendern weiter und der Grad an Verzücktheit steigt ins unermessliche: Alle Hausnummern sind auf Fliesen mit einer Limone an den Wänden angebracht, wir schlendern durch menschenleere Gassen und treffen immer wieder auf bello cane Liebhaber, die Streicheleinheiten verteilen, bis wir schließlich eine kleine Kirche finden. Sie liegt hoch über dem Gardasee und von ihrem Vorplatz aus hat man einen wundervollen Ausblick über die Stadt.
 
