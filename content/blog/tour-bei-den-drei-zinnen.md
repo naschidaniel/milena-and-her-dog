@@ -1,5 +1,5 @@
 Title: Umrundung der Drei Zinnen
-Subtitle: Runderwanderung in den Sonnenuntergang
+Subtitle: Rundwanderung in den Sonnenuntergang
 Date: 2020-09-27 11:55
 Mainimage: /images/tour-bei-den-drei-zinnen/feli.jpg
 Mainimagealttext: Hund Dolomiten 
