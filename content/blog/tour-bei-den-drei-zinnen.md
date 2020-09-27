@@ -1,32 +1,26 @@
 Title: Tour bei den drei Zinnen
-Subtitle:
+Subtitle: Runderwanderung in den Sonnenuntergang
 Date: 2020-09-27 11:55
 Mainimage: /images/tour-bei-den-drei-zinnen/feli.jpg
-Mainimagealttext: 
-text:
-Tags:
+Mainimagealttext: Hund Dolomiten 
+Tags: Wandern, Outdoor, Hiking
 Category: Wandern
 Slug: tour-bei-den-drei-zinnen
 Author: Milena
 Summary: Spät Abends rund um die Drei Zinnen, dem Besucherstrom entgegen. 
 
-
-Um 12.00 Uhr ging es los in Innsbruck, klassischer Zwischenstopp beim Lieblingscafe und dann den Atuokolonnen, die sich von den drei Zinnen aus auf den Heimweg machten, entgegen.
-Kein Stau an der Mautstelle zur Auronzopass-Straße, ein leerer Parkplatz oben. 
-
-
-![{Hund Dolomiten}](/Frieda_Dolomiten/tour-bei-den-drei-zinnen/drei-zinnen.jpg
+![{Hund Dolomiten}](/image/tour-bei-den-drei-zinnen/Frieda_Dolomiten.jpg)
 
 ## Dem Besucherstrom entgegen
 
 ![{Hund Dolomiten}](/images/tour-bei-den-drei-zinnen/Frieda_Dolomiten.jpg)
 ![{Blumen Dolomiten}](/images/tour-bei-den-drei-zinnen/blumen.jpg) 
 
-Um 12.00 Uhr ging es los in Innsbruck, klassischer Zwischenstopp beim Lieblingscafe und dann den Atuokolonnen, die sich von den drei Zinnen aus auf den Heimweg machten, entgegen.
+Um 12.00 Uhr ging es los in Innsbruck, klassischer Zwischenstopp beim Lieblingscafe und dann den Autokolonnen, die sich von den Drei Zinnen aus auf den Heimweg machten, entgegen.
 
 Kein Stau an der Mautstelle zur Auronzopass-Straße, ein leerer Parkplatz oben.
 
-Ein paar Schritte weg vom Auto und schon stehen wir mitten in den Dolomiten. Die letzten Besucherstörme wandern zu ihren Autos und rund um die drei Zinnen kehrt Ruhe ein.
+Ein paar Schritte weg vom Auto und schon stehen wir mitten in den Dolomiten. Die letzten Besucherstörme wandern zu ihren Autos und rund um die Zinnen kehrt Ruhe ein.
 
 
 ### Wenn Abendsonne die Dolomiten rot färbt
