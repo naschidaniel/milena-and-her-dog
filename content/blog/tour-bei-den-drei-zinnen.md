@@ -9,7 +9,6 @@ Slug: tour-bei-den-drei-zinnen
 Author: Milena
 Summary: Spät Abends rund um die Drei Zinnen, dem Besucherstrom entgegen. 
 
-![{Hund Dolomiten}](/image/tour-bei-den-drei-zinnen/Frieda_Dolomiten.jpg)
 
 ## Dem Besucherstrom entgegen
 
