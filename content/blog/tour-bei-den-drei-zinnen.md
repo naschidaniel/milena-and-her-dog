@@ -1,4 +1,4 @@
-Title: Tour bei den drei Zinnen
+Title: Umrundung der Drei Zinnen
 Subtitle: Runderwanderung in den Sonnenuntergang
 Date: 2020-09-27 11:55
 Mainimage: /images/tour-bei-den-drei-zinnen/feli.jpg
@@ -57,3 +57,11 @@ Mit jedem Atemzug genossen wir die Sommerluft, das überwältigende Gefühl, die
 
 ![{Paternkofel Sonnenuntergang}}](/images/tour-bei-den-drei-zinnen/sonnenuntergang1.jpg)
 ![{ Drei Zinnen Sonnenuntergang}](/images/tour-bei-den-drei-zinnen/mondschein.jpg) 
+
+## Details
+
+Start: Auronzo Hütte (2.320 m)
+Höhenmeter: 400 m
+Länge: 9,5 km
+Gehzeit: 3 h
+Schwierigkeit: mittel
