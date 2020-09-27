@@ -161,8 +161,8 @@ def set_environment_variables(c):
 @task
 def delete_unused_template_files(c):
     """A function to delete unnecessary template files"""
-    c.run("rm -f ./output/index2.html")
-    c.run("find ./output -size  0 -print -delete")
+    c.run('find ./output -type f -name "index2.html" -print -delete')
+    c.run('find ./output -type f -name "*.html" -size  0 -print -delete')
     c.run("find ./output -type d -empty -print -delete")
 
 def pelican_run(cmd):
