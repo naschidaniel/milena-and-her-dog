@@ -33,7 +33,7 @@ h1 {
   @apply flex flex-wrap max-w-full mb-3 text-base;
 }
 .markdown img {
-  @apply rounded shadow-2xl mb-3;
+  @apply rounded shadow-2xl mb-3 w-full;
 }
 .img-slideshow img {
   @apply rounded shadow-2xl mb-3 mr-3;

@@ -158,6 +158,10 @@ def set_environment_variables(c):
     except:
         print("The environment variable cannot be written.")
 
+@task
+def delete_unused_template_files(c):
+    """A function to delete unnecessary template files"""
+    c.run("")
 
 def pelican_run(cmd):
     cmd += ' ' + program.core.remainder  # allows to pass-through args to pelican
