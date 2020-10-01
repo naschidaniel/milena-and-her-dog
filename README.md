@@ -1,4 +1,4 @@
-# milena-and-her-dog
+# milena-and-her-dog ![[Build Status]](https://github.com/naschidaniel/milena-and-her-dog/workflows/release/badge.svg)
 
 A simple blog, created with the Static Site Generator [Pelican](https://getpelican.com/). In section [CHANGELOG](#CHANGELOG) the already implemented parts of the websites are listed. The blog is built with [github actions](https://docs.github.com/en/actions). The build of the website is provided via [github pages](https://pages.github.com/).
 
