@@ -45,13 +45,12 @@ jobs:
         run: npm run-script imagemin
 
 
+      - name: Clean up output directory
+        run: invoke delete-unused-template-files
+
+
       - name: Deploy on GH-Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
-
-
-      - name: Clean up output directory
-        run: invoke delete-unused-template-files
-
